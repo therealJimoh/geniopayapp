@@ -1,0 +1,1 @@
+export { default as Screenone } from "./screenone/ScreenOne";
