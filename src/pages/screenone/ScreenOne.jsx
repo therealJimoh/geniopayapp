@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Sidebar } from "../../containers";
+import { Header, Quicklinks, Sidebar, Transactions, Walletaccount } from "../../containers";
 import * as G from "./screenoneStyle";
 
 const ScreenOne = () => {
@@ -8,6 +8,9 @@ const ScreenOne = () => {
       <Sidebar />
       <div className="main-content">
         <Header />
+        <Walletaccount />
+        <Quicklinks />
+        <Transactions />
       </div>
     </G.Container>
   );
