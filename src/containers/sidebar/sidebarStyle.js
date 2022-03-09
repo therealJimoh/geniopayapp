@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   min-height: 100vh;
-  position: sticky ;
+  position: sticky;
   justify-content: center;
   width: 260px;
   background: var(--main-bg);
@@ -67,7 +67,7 @@ export const Container = styled.div`
       width: 236px;
       border-radius: 12px;
       padding: 24px 21px;
-      margin-top: 25px ;
+      margin-top: 25px;
       .speakertext {
         display: flex;
         .refertext {
@@ -100,6 +100,10 @@ export const Container = styled.div`
         color: var(--white);
       }
     }
+  }
+
+  @media only screen and (max-width: 990px) {
+    display: none;
   }
 `;
 
