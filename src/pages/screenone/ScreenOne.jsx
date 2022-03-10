@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Quicklinks, Sidebar, Transactions, Walletaccount } from "../../containers";
+import { Charts, Header, Quicklinks, Sidebar, Transactions, Walletaccount } from "../../containers";
 import * as G from "./screenoneStyle";
 
 const ScreenOne = () => {
@@ -11,6 +11,7 @@ const ScreenOne = () => {
         <Walletaccount />
         <Quicklinks />
         <Transactions />
+        <Charts />
       </div>
     </G.Container>
   );

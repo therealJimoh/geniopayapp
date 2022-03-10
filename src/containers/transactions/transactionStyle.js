@@ -47,15 +47,14 @@ export const Transaction = styled.div`
 
   @media only screen and (max-width: 850px) {
     .transacthistory {
-      /* width:93% ; */
-      margin:0 auto ;
+      min-width: 100% ;
     }
   }
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 350px) {
     .transacthistory {
-      display: flex;
-      justify-content: center;
-    
+      flex-direction:column ;
+      justify-content: flex-start;
     }
+  
   }
 `;

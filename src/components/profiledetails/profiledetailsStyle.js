@@ -19,4 +19,16 @@ export const Profile = styled.div`
   > * {
     margin-right: 4px;
   }
+
+  @media only screen and (max-width: 550px) {
+    .verifyname {
+      font-size: 12px;
+      line-height: 80%;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .verifyname {
+      font-size: 10px;
+    }
+  }
 `;

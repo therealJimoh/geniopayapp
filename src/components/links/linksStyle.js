@@ -70,4 +70,13 @@ export const Link = styled.div`
       row-gap: 25px;
     }
   }
+  @media only screen and (max-width: 550px) {
+    .linkwrapper {
+      display: grid;
+      grid-template-columns: 100px  100px;
+      grid-template-rows: 100px 100px;
+      column-gap: 5px;
+      row-gap: 29px;
+    }
+  }
 `;
