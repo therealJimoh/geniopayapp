@@ -14,6 +14,9 @@ export const Container = styled.div`
     font-size: 12px;
   }
   @media only screen and (max-width: 550px) {
-    font-size: 14px;
+    font-size: 10px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 8px;
   }
 `;

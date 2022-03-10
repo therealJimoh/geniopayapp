@@ -3,3 +3,4 @@ export { default as Header } from "./header/Header";
 export { default as Walletaccount } from "./walletaccount/Walletaccount";
 export { default as Quicklinks } from "./quicklinks/Quicklinks";
 export { default as Transactions } from "./transactions/Transactions";
+export { default as Charts } from "./charts/Charts";
