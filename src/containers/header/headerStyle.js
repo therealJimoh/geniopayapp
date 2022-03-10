@@ -53,7 +53,7 @@ export const Container = styled.div`
 export const Sidebar = styled.div`
   .nav-menu {
     display: flex;
-    height: 100vh;
+    max-height: 100vh;
     position: fixed;
     top: 0;
     left: -100%;
@@ -62,6 +62,7 @@ export const Sidebar = styled.div`
     width: 260px;
     background: var(--main-bg);
     padding: 35px;
+    z-index: 11;
     .navbar-toggle {
       /* background: var(--white) ; */
     }

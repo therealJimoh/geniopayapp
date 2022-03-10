@@ -64,19 +64,38 @@ export const Link = styled.div`
   @media only screen and (max-width: 800px) {
     .linkwrapper {
       display: grid;
-      grid-template-columns: 100px 50px 100px;
+      grid-template-columns: 170px 170px 170px;
       grid-template-rows: 80px auto 80px;
       column-gap: 20px;
       row-gap: 25px;
     }
   }
   @media only screen and (max-width: 550px) {
+    .link {
+      width: 100px;
+      padding: 18px;
+      height: 110px;
+    }
     .linkwrapper {
       display: grid;
-      grid-template-columns: 100px  100px;
+      grid-template-columns: 115px 115px 115px;
       grid-template-rows: 100px 100px;
       column-gap: 5px;
-      row-gap: 29px;
+      row-gap: 39px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .link {
+      width: 70px;
+      padding: 15px;
+      height: 85px;
+    }
+    .linkwrapper {
+      display: grid;
+      grid-template-columns: 90px 90px 90px;
+      grid-template-rows: 100px 100px;
+      column-gap: 5px;
+      row-gap: 39px;
     }
   }
 `;
