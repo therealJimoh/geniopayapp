@@ -1,5 +1,4 @@
 import React from "react";
-import * as G from "./chartStyle";
 import {
   AreaChart,
   Area,
